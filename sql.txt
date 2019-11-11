@@ -1,0 +1,27 @@
+use test;
+create table usuario(
+nome_usuario varchar(50) not null,
+senha_usuario varchar(50) not null,
+constraint pk_usuario primary key (nome_usuario)
+);
+
+insert into usuario values('Mikhael', '1'),('Maria', '2'),('Izadora', '3'),('Sofia', '4');
+
+create table tipo(
+id_tipo int not null,
+nome varchar(15) not null,
+constraint pk_tipo PRIMARY KEY (id_tipo)
+);
+insert into tipo values(1, 'Pagar'),(2, 'Receber');
+
+create table conta(
+id_conta int(5) zerofill not null auto_increment,
+categoria varchar(30) not null,
+sub_categoria varchar(30),
+descricao varchar(1000) not null,
+valor double not null,
+data date,
+id_tipo int not null,
+constraint pk_conta PRIMARY KEY (id_conta),
+constraint fk_contip FOREIGN KEY (id_tipo) references tipo(id_tipo)
+);

@@ -1,0 +1,96 @@
+.container-geral {
+    width: 240px;
+    margin: auto;
+    height: auto;
+}
+.container {
+    padding: 20px;
+    border-radius: 8px;
+}
+.login {
+    border: solid 1px #900021;
+    background-image: linear-gradient(to bottom, #CF2B4F, #980021 130%);
+}
+.gerar {
+    border: solid 1px #010021;
+    background-image: linear-gradient(to bottom, #3E2B4F, #010021 130%);
+}
+.welcome {
+    border: solid 1px #060;
+    background-image: linear-gradient(to bottom, #0A0, #030 130%);
+    text-align: center;
+}
+.container-erro {
+    padding: 10px 0;
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: solid 1px #A00;
+    background-image: linear-gradient(to bottom, #F00, #C00 130%);
+}
+.container>h3 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+.container label {
+    font-family: Arial;
+    color: #FFFFFF;
+}
+.container input[type=text], .container input[type=password] {
+    border-radius: 6px;
+    width: 185px;
+    height: 15px;
+    padding: 4px;
+    font-family: Arial;
+    color: #999999;
+}
+.container input[type=submit]{
+    border: solid 1px #333333;
+    border-radius: 6px;
+    width: 70px;
+    padding: 5px 0;
+}
+.container input[type=submit]:hover {
+    background-color: #CCCCCC;
+}
+a.sair {
+    font-family: Arial;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: solid 1px #660000;
+    border-radius: 6px;
+    background: #990000;
+    padding: 10px;
+}
+a:hover.sair{
+    background-color: #CC0000;
+}
+a.sair {
+    font-family: Arial;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: solid 1px #660000;
+    border-radius: 6px;
+    background: #990000;
+    padding: 10px;
+}
+a:hover.sair{
+    background-color: #CC0000;
+}
+a.btn {
+    font-family: Arial;
+    color: #000;
+    text-decoration: none;
+    border: solid 1px #333333;
+    border-radius: 6px;
+    background: #c3c3c3;
+    padding: 10px;
+}
+a:hover.btn{
+    background-color: #f0f0f0;
+}
